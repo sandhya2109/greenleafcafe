@@ -1,0 +1,277 @@
+<html>
+<head><title>MENU | My Site</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+body{
+	background-color:#F7F3EB;
+	height:2400px;
+}
+.nav{
+	background-color:#004440;
+	width:900px;
+	position:absolute;
+	left:200px;
+	padding:10px;
+	text-align:center;
+	height:170px;
+}
+.cafename{
+	color:#ffffff;
+	font-family: 'Dancing Script', cursive;
+	font-weight:900;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:2px;
+	text-decoration:none;
+	position:relative;
+	left:320px;
+}
+.cafename:hover{
+	color:#04AE6F;
+}
+.fa-brands:hover{
+	color:#04AE6F;
+}
+.navbar{
+	text-align:center;
+	position:relative;
+	top:30px;
+}
+.navbar-item{
+	display:inline;
+	padding-right:20px;
+}
+.navbar-link{
+	color:#ffffff;
+	text-decoration:none;
+}
+.navbar-link:hover{
+	color:#04AE6F;
+}
+
+.fa-brands{	
+	color:#ffffff;
+	font-size:20px;
+	position:relative;
+	left:240px;
+	top:-5px;
+	margin-left:10px;
+}
+.menu{
+	background-color:#004440;
+	padding:10px;
+	position:relative;
+	top:220px;
+	text-align:center;
+	color:#FFFFFF;
+}
+.menu2{
+	margin-top:50px;
+}
+.menu3{
+	margin-top:420px;
+}
+.menu4{
+	margin-top:70px;
+}
+.menu5{
+	margin-top:-300px;
+	height:100px;
+}
+.td1{
+	width:600px;
+	height:350px;
+	position:absolute;
+	top:350px;	
+	left:100px;
+	background-image:url('masala.jpg');
+	background-size:600px 350px;
+	animation-name:teanames;
+	animation-duration:12s;
+	animation-iteration-count:infinite;
+}
+@keyframes teanames{
+	0% {background-image:url('masala.jpg');}
+	25% {background-image:url('molasses.jpg');}
+	50% {background-image:url('ginger.jpg');}
+	100% {background-image:url('honey.jpg');}
+	0% {background-image:url('masala.jpg');}
+}
+.td2{
+	width:600px;
+	height:350px;
+	position:relative;
+	top:270px;
+	left:680px;
+	background-image:url('masalatea.jpg');
+	background-size:600px 350px;
+ 	animation-name:teaimgs;
+	animation-duration:12s;
+	animation-iteration-count:infinite;
+}
+@keyframes teaimgs{
+	0% {background-image:url('masalatea.jpg');}
+	25% {background-image:url('molassestea.jpg');}
+	50% {background-image:url('gingerlemontea.jpg');}
+	100% {background-image:url('honeyminttea.jpg');}
+	0% {background-image:url('masalatea.jpg');}
+}
+.td3{
+	width:600px;
+	height:350px;
+	position:absolute;
+	top:860px;	
+	left:100px;
+	background-image:url('cappuccino_name.jpg');
+	background-size:600px 350px;
+	animation-name:coffeenames;
+	animation-duration:9s;
+	animation-iteration-count:infinite;
+}
+@keyframes coffeenames{
+	0% {background-image:url('cappuccino_name.jpg');}
+	33% {background-image:url('latte_name.jpg');}
+	66% {background-image:url('espresso_name.jpg');}
+	100% {background-image:url('cappuccino_name.jpg');}
+}
+.td4{
+	width:600px;
+	height:350px;
+	position:absolute;
+	top:860px;
+	left:680px;
+	background-image:url('cappuccino.jpg');
+	background-size:600px 350px;
+ 	animation-name:coffeeimgs;
+	animation-duration:9s;
+	animation-iteration-count:infinite;
+}
+@keyframes coffeeimgs{
+	0% {background-image:url('cappuccino.jpg');}
+	33% {background-image:url('latte.jpg');}
+	66% {background-image:url('espresso.jpg');}
+	100% {background-image:url('cappuccino.jpg');}
+}
+
+.td5{
+	width:600px;
+	height:350px;
+	position:absolute;
+	top:1380px;	
+	left:100px;
+	background-image:url('masalapaan_name.jpg');
+	background-size:600px 350px;
+	animation-name:paannames;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+@keyframes paannames{
+	0% {background-image:url('masalapaan_name.jpg');}
+	50% {background-image:url('sweetpaan_name.jpg');}
+	100% {background-image:url('masalapaan_name.jpg');}
+}
+.td6{
+	width:600px;
+	height:350px;
+	position:relative;
+	top:280px;
+	left:690px;
+	background-image:url('masalapaan.png');
+	background-size:600px 350px;
+ 	animation-name:paanimgs;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+@keyframes paanimgs{
+	0% {background-image:url('masalapaan.png');}
+	50% {background-image:url('sweetpaan.jpg');}
+	100% {background-image:url('masalapaan.png');}
+}
+
+.td7{
+	width:600px;
+	height:350px;
+	position:relative;
+	top:250px;	
+	left:100px;
+	background-image:url('coke_name.jpg');
+	background-size:600px 350px;
+	animation-name:drinksnames;
+	animation-duration:18s;
+	animation-iteration-count:infinite;
+}
+@keyframes drinksnames{
+	0% {background-image:url('coke_name.jpg');}
+	20% {background-image:url('pepsi_name.jpg');}
+	40% {background-image:url('mirinda_name.jpg');}
+	60% {background-image:url('drpepper_name.jpg');}
+	80% {background-image:url('more_name.png');}
+	100% {background-image:url('coke_name.jpg');}
+}
+.td8{
+	width:600px;
+	height:350px;
+	position:relative;
+	top:-100px;
+	left:680px;
+	background-image:url('coke.jpg');
+	background-size:600px 350px;
+ 	animation-name:drinksimgs;
+	animation-duration:18s;
+	animation-iteration-count:infinite;
+}
+@keyframes drinksimgs{
+	0% {background-image:url('coke.jpg');}
+	20% {background-image:url('pepsi.jpg');}
+	40% {background-image:url('mirinda.jpg');}
+	60% {background-image:url('dr.pepper.jpg');}
+	80% {background-image:url('more.jpg');}
+	100% {background-image:url('coke.jpg');}
+}
+
+</style>
+</head>
+<body>
+<nav class="nav">
+	<a class="cafename" href="home.html" >Green Leaf Cafe</a>
+	<ul class="navbar">
+		<li class="navbar-item"><a class="navbar-link" href="index.html">HOME</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="about.html">ABOUT</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="menu.html"  style="color:#04AE6F;">MENU</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="order.html">ORDER</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="contact.html">CONTACT</a></li>
+	</ul>
+	<a href="https://www.facebook.com/people/Green-Leaf-cafe/100054622906779/"><i class="fa-brands fa-facebook-f"></i></a>
+	<a href="https://www.instagram.com/greenleaf.uk/"><i class="fa-brands fa-instagram"></i></a>
+</nav>
+<div class="menu">
+	<h1>HOT BEVERAGES</h1>
+</div>
+<div class="td1"></div>
+<div class="td2"></div>
+<br><br>
+<div class="menu menu2">
+	<h1>COFFEE</h1>
+</div>
+<div class="td3"></div>
+<div class="td4"></div>
+<div class="menu menu3">
+	<h1>PAANS</h1>
+</div>
+<div class="td5"></div>
+<div class="td6"></div>
+<div class="menu menu4">
+	<h1>COLD BEVERAGES</h1>
+</div>
+<div class="td7"></div>
+<div class="td8"></div>
+
+<div class="menu menu5">
+	<h1>VISIT OUR CAFE FOR MORE!</h1>
+</div>
+</html>

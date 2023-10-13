@@ -1,0 +1,298 @@
+<html>
+<head><title>HOME| My Site</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+body{
+	overflow-x:hidden;
+}
+.main_div{
+	background-color:rgba(0,68,64,0.3);
+	width:900px;
+	position:absolute;
+	left:200px;
+	padding:10px;
+	text-align:center;
+	height:3400px;
+	top:220px;	
+}
+.nav{
+	background-color:#004440;
+	width:900px;
+	position:absolute;
+	left:200px;
+	padding:10px;
+	text-align:center;
+	height:170px;
+	z-index:1;
+}
+.cafename{
+	color:#ffffff;
+	font-family: 'Dancing Script', cursive;
+	font-weight:900;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:2px;
+	text-decoration:none;
+	position:relative;
+	left:320px;
+}
+.cafename:hover{
+	color:#04AE6F;
+}
+.fa-brands:hover{
+	color:#04AE6F;
+}
+.navbar{
+	text-align:center;
+	position:relative;
+	top:30px;
+}
+.navbar-item{
+	display:inline;
+	padding-right:20px;
+}
+.navbar-link{
+	color:#ffffff;
+	text-decoration:none;
+}
+.navbar-link:hover{
+	color:#04AE6F;
+}
+.fa-brands{	
+	color:#ffffff;
+	font-size:20px;
+	position:relative;
+	left:240px;
+	top:-5px;
+	margin-left:10px;
+}
+.div1{	
+	background-color:#FFFFFF;
+	width:700px;
+	height:350px;
+	position:relative;
+	top:250px;
+	left:-100px;
+	padding-left:1px; 
+}
+.A{
+	display:inline;
+	color:#004440;
+	font-size:50px;
+	font-weight:900;
+	position:relative;
+	left:10px;
+	top:100px;
+}
+.taste{
+	display:inline;
+	color:#8B7346;
+	font-size:50px;
+	font-weight:900;
+	position:relative;
+	text-align:center;
+	left:10px;
+	top:100px;
+}
+.address{
+	position:relative;
+	left:10px;
+	top:100px;
+	letter-spacing:2px;
+	font-size:20px;	
+}
+.text1{
+	width:900px;
+	padding:10px;
+	position:relative;
+	top:600px;
+	left:-20px;
+	color:#ffffff;
+	font-size:25px;
+	font-weight:900;
+}
+.table{
+	width:1050px;
+	height:400px;
+	padding-right:50px;
+	padding-left:-10px;
+	position:relative;
+	top:1000px;
+	left:-100px;
+	color:#ffffff;
+	font-size:25px;
+	font-weight:900;
+	background-color:#ffffff;
+	text-align:center;
+}
+table,th,td{
+	width:800px;
+	height:150px;
+	text-align:center;
+	position:relative;
+	left:80px;
+}
+th{
+	color:#004440;
+	font-weight:900;
+	font-size:25px;
+	letter-spacing:2px;
+	font-family: 'Kanit', sans-serif;
+}
+td{
+	font-weight:10;
+}
+.text2{
+	width:900px;
+	padding:10px;
+	position:relative;
+	top:1100px;
+	left:-10px;
+	color:#ffffff;
+	font-size:27px;
+	font-weight:900;
+}
+.sub{
+	position:relative;
+	top:1300px;
+	height:200px;	 
+}
+legend{
+	font-weight:100;	
+	color:#ffffff;
+}
+label{
+	font-weight:100;	
+	color:#ffffff;
+	position:relative;
+	top:30px;
+	left:-30px;
+}
+.email{
+	width:300px;
+	border:1px solid #ffffff;
+	background-color:#004440;
+	padding:10px;
+	position:relative;
+	top:70px;
+	left:-80px;
+}
+.email::placeholder{
+	color:#ffffff;
+	text-align:center;
+}
+.submit{
+	width:150px;
+	border:none;
+	background-color:#8B7346;
+	padding:10px;
+	position:relative;
+	top:70px;
+}
+.submit::placeholder{
+	color:#ffffff;
+	text-align:center;
+}
+.images{
+	width:400px;
+	height:350px;
+}
+.img-table{
+	position:relative;
+	top:1500px;
+	left:-200px;
+}
+.coffee_video{
+	position:absolute;
+	z-index:1;
+	left:500px;
+	top:250px;
+	width:600px;
+	height:350px;
+	background-image:url('chef1.jpeg');
+	animation-name:example;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+@keyframes example {
+  0%   {background-image:url('chef1.jpeg');}
+  33%  {background-image:url('beans.jpeg');}
+  66%  {background-image:url('coffee4.jpeg');}
+  100% {background-image:url('chef1.jpeg');}
+}
+.myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width:1350px;
+
+}	
+</style>
+</head>
+<body>
+
+<nav class="nav">
+	<a class="cafename" href="home.html" >Green Leaf Cafe</a>
+	<ul class="navbar">
+		<li class="navbar-item"><a class="navbar-link" href="index.html" style="color:#04AE6F;">HOME</a></li>
+		<li class="navbar-item"><a class="navbar-link active" href="about.html">ABOUT</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="menu.html">MENU</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="order.html">ORDER</a></li>
+		<li class="navbar-item"><a class="navbar-link" href="contact.html">CONTACT</a></li>
+	</ul>
+	<a href="https://www.facebook.com/people/Green-Leaf-cafe/100054622906779/"><i class="fa-brands fa-facebook-f"></i></a>
+	<a href="https://www.instagram.com/greenleaf.uk/"><i class="fa-brands fa-instagram"></i></a>
+</nav>
+<video autoplay muted loop class="myVideo">
+  <source src="coffee_video2.mp4" type="video/mp4">
+</video>
+<div class="main_div">
+<div class="div1">
+	<p class="A">A </p><p class=" A taste">TASTE OF EAST </p><br><p class="A">IN A CUP!</p>
+	<h5 class="address">112-116 Whitechapel Rd,<br>London E1 1JE, UK<br>Tel: 07472915599</h5>
+</div>
+<div class="coffee_video">
+</div>
+<div class="text1">
+	<p>GET A TASTE OF OUR SIGNATURE TEA AND OTHER HOT BEVERAGES!<p>
+</div>
+<div class="table">	
+	<table>
+	<tr>
+	<th>FRESHLY SOURCED <br>INGREDIENTS</th>
+	<th>MESMERIZING <br>TASTE & AROMA</th>
+	<th>PRICES FOR <br>EVERYONE</th>
+	</tr>
+	<tr>
+	<td>All ingredients are freshly sourced <br>and are inspected to maintain high <br>quality.</td>
+	<td>As our motto goes: "A taste of East <br>in a cup" is used as a way of<br> describing the similarity of our <br>signature tea with south Asian <br>styles.</td>
+	<td>We believe in affordability, our hot<br> beverages and food are carefully <br>priced to not break the bank.</td>
+	</tr>
+	</table>
+</div>
+<div class="text2">
+	<p>GET UPDATES ON MENU,<br>EVENTS & SPECIAL OFFERS<p>
+</div >
+<form class="sub">
+	<legend>Sign up to receive our menu:</legend>
+	<label>Email*</label>
+	<input class="email" type="email" placeholder="Enter your email here">
+	<input class="submit" type="" placeholder="Subscribe Now">
+</form>
+<table class="img-table">
+<tr class="img-tr">
+<td class="img-tr"><img class="images" src="coffee1.jpg"></td>
+<td class="img-tr"><img class="images" src="coffee2.webp"></td>
+<td class="img-tr"><img class="images" src="coffee3.jpg"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
